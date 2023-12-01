@@ -1,0 +1,78 @@
+$pageWidth: 100%;
+
+body {
+    margin: 0;
+    display: grid;
+    width: $pageWidth;
+    height: 100vh;
+    background-color: white;
+}
+
+.main {
+    display: grid;
+    place-self: center;
+    max-width: calc($pageWidth/1.5);
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+.messages {
+    text-align: center;
+    display: grid;
+
+    P:nth-child(1) {
+        font-size: 2rem;
+    }
+
+    img {
+        width: 20%;
+        place-self: center;
+    }
+
+    .writeup {
+        font-size: 1rem;
+        text-align: center;
+        display: grid;
+        place-self: center;
+        justify-content: center;
+        max-width: calc($pageWidth/1.7);
+    }
+}
+
+.socials {
+    p {
+        font-size: 1.1rem;
+    }
+
+    .icons {
+
+        display: flex;
+        gap: 1.5rem;
+        justify-content: center;
+
+        img {
+            width: 2.5rem;
+        }
+
+        .ig {
+            width: 2.9rem;
+        }
+    }
+
+
+}
+
+.donations {
+    p {
+        font-size: 1.1rem;
+    }
+
+    button {
+        border-radius: 10px;
+        border: none;
+        background-color: crimson;
+        color: white;
+        padding: 0.8rem 1.6rem;
+    }
+}
