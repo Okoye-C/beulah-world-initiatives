@@ -40,6 +40,14 @@ body {
     }
 }
 
+@media screen and (max-width: 500px) {
+    .messages {
+        .writeup {
+            max-width: calc($pageWidth/1.1111);
+        }
+    }
+}
+
 .socials {
     p {
         font-size: 1.1rem;
